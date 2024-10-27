@@ -1,0 +1,24 @@
+server:
+  port: 3000
+
+searxng:
+  url: https://sear.kol.tel
+
+api:
+  default_settings:
+    sort_by: relevance
+    timeframe: all
+    language: en
+    region: all
+    count: 10
+    include_summary: true
+
+  allowed_domains:
+    - techcrunch.com
+    - wired.com
+    - arstechnica.com
+    - theverge.com
+
+  blocked_domains:
+    - spam-news.com
+    - fake-news-site.com
